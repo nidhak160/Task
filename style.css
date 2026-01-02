@@ -4,9 +4,8 @@ body {
 
 .container-box {
   padding: 20px;
-  border: 3px solid rgb(17, 17, 17);
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(220, 238, 241);
   margin-top: 100px;
 }
 

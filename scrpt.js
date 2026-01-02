@@ -40,19 +40,5 @@ const activities = [
 ];
 
 
-function showLongActivities() {
-  let list = document.getElementById("activityList");
-  list.innerHTML = "";
 
-  const longActivities = activities.filter(a => a.minutes > 25);
-
-  longActivities.forEach(a => {
-    list.innerHTML += `
-      <li class="list-group-item">
-        ${a.name} - ${a.minutes} min
-      </li>`;
-  });
-
-  updateCount();
-}
 
